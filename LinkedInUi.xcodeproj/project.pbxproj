@@ -15,6 +15,7 @@
 		4D5529F62AA7EE3100FA2CB1 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5529F52AA7EE3100FA2CB1 /* PostModel.swift */; };
 		4D5529F82AA7EE4F00FA2CB1 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5529F72AA7EE4F00FA2CB1 /* NetworkModel.swift */; };
 		4D5529FA2AA7F01600FA2CB1 /* InvitationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5529F92AA7F01600FA2CB1 /* InvitationCard.swift */; };
+		4D5529FC2AA8930100FA2CB1 /* MyNetworkTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5529FB2AA8930100FA2CB1 /* MyNetworkTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4D5529F52AA7EE3100FA2CB1 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		4D5529F72AA7EE4F00FA2CB1 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		4D5529F92AA7F01600FA2CB1 /* InvitationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationCard.swift; sourceTree = "<group>"; };
+		4D5529FB2AA8930100FA2CB1 /* MyNetworkTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				4D5529F22AA7E9B100FA2CB1 /* SearchBar.swift */,
 				4D5529F92AA7F01600FA2CB1 /* InvitationCard.swift */,
+				4D5529FB2AA8930100FA2CB1 /* MyNetworkTab.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				4D5529E62AA7CCF600FA2CB1 /* ContentView.swift in Sources */,
 				4D5529F62AA7EE3100FA2CB1 /* PostModel.swift in Sources */,
 				4D5529E42AA7CCF600FA2CB1 /* LinkedInUiApp.swift in Sources */,
+				4D5529FC2AA8930100FA2CB1 /* MyNetworkTab.swift in Sources */,
 				4D5529F82AA7EE4F00FA2CB1 /* NetworkModel.swift in Sources */,
 				4D5529F32AA7E9B100FA2CB1 /* SearchBar.swift in Sources */,
 			);
