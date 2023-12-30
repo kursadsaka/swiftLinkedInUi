@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-let sampleData = NetworkModel(id: 1, name: "Rahul Singh", position: "SDE at Amazon", mutual: 12, image: "01")
+let sampleData = NetworkModel(id: 1, name: "Rahul Singh", position: "SDE at Amazon", mutual: Int.random(in: 12...103), image: "01")
 
 struct InvitationCard: View {
-    var invitation: NetworkModel
+    let invitation: NetworkModel
     
     var body: some View {
         HStack(alignment: .center, spacing: 10) {

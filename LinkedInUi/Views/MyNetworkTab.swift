@@ -27,7 +27,7 @@ let sampleInvitations: [NetworkModel] = [
 ]
 
 struct MyNetworkTab: View {
-    let invitations: [NetworkModel]
+    var invitations = sampleInvitations
     
     var body: some View {
         VStack {
