@@ -9,9 +9,11 @@ import SwiftUI
 
 struct HomeTab: View {
     var body: some View {
-        SearchBar()
-        PostEntry()
-        Posts()
+        VStack {
+            SearchBar()
+            PostEntry()
+            Posts()
+        }
     }
 }
 

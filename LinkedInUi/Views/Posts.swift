@@ -21,7 +21,11 @@ struct Posts: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment: .center) {
-                ForEach(postData, id:\.id) { data in
+                ForEach(postData, id: \.id) { data in
+                    Rectangle()
+                        .fill(.gray.opacity(0.4))
+                        .frame(width: UIScreen.main.bounds.width, height: 10)
+                        .ignoresSafeArea(.all)
                     PostCard(data: data)
                 }
             }
