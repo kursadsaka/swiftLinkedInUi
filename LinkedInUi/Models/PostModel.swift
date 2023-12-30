@@ -13,4 +13,5 @@ struct PostData {
     var title: String
     var followers: Int
     var profileImage: String
+    var text: String
 }
