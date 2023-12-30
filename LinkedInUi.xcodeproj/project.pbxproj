@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D4B5D0D2B40796200FFC5C8 /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B5D0C2B40796200FFC5C8 /* PostCard.swift */; };
+		4D4B5D112B4083F200FFC5C8 /* PostEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B5D102B4083F200FFC5C8 /* PostEntry.swift */; };
 		4D5529E42AA7CCF600FA2CB1 /* LinkedInUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5529E32AA7CCF600FA2CB1 /* LinkedInUiApp.swift */; };
 		4D5529E62AA7CCF600FA2CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5529E52AA7CCF600FA2CB1 /* ContentView.swift */; };
 		4D5529E82AA7CCF800FA2CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5529E72AA7CCF800FA2CB1 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		4D4B5D0C2B40796200FFC5C8 /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
+		4D4B5D102B4083F200FFC5C8 /* PostEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEntry.swift; sourceTree = "<group>"; };
 		4D5529E02AA7CCF600FA2CB1 /* LinkedInUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5529E32AA7CCF600FA2CB1 /* LinkedInUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInUiApp.swift; sourceTree = "<group>"; };
 		4D5529E52AA7CCF600FA2CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				4D5529F92AA7F01600FA2CB1 /* InvitationCard.swift */,
 				4D5529FB2AA8930100FA2CB1 /* MyNetworkTab.swift */,
 				4D4B5D0C2B40796200FFC5C8 /* PostCard.swift */,
+				4D4B5D102B4083F200FFC5C8 /* PostEntry.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				4D5529FA2AA7F01600FA2CB1 /* InvitationCard.swift in Sources */,
 				4D4B5D0D2B40796200FFC5C8 /* PostCard.swift in Sources */,
+				4D4B5D112B4083F200FFC5C8 /* PostEntry.swift in Sources */,
 				4D5529E62AA7CCF600FA2CB1 /* ContentView.swift in Sources */,
 				4D5529F62AA7EE3100FA2CB1 /* PostModel.swift in Sources */,
 				4D5529E42AA7CCF600FA2CB1 /* LinkedInUiApp.swift in Sources */,
