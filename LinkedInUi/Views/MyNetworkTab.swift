@@ -63,8 +63,6 @@ struct MyNetworkTab: View {
     }
 }
 
-struct MyNetworkTab_Previews: PreviewProvider {
-    static var previews: some View {
-        MyNetworkTab(invitations: sampleInvitations)
-    }
+#Preview {
+    MyNetworkTab(invitations: sampleInvitations)
 }

@@ -41,8 +41,6 @@ struct InvitationCard: View {
     }
 }
 
-struct InvitationCard_Previews: PreviewProvider {
-    static var previews: some View {
-        InvitationCard(invitation: sampleData)
-    }
+#Preview {
+    InvitationCard(invitation: sampleData)
 }
